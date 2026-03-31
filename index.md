@@ -2,7 +2,7 @@
 
 **Last updated:** March 29, 2026
 **Developer:** PB Studio
-**Contact:** pierrebgames@gmail.com
+**Contact:** pbstudiogames@proton.me
 
 ## Overview
 
@@ -67,7 +67,7 @@ You can reset your Advertising ID at any time through your device settings (Sett
 
 ### Request Data Deletion
 
-To request deletion of data associated with your use of the App, contact us at **pierrebgames@gmail.com**. Please include "Data Deletion Request" in the subject line.
+To request deletion of data associated with your use of the App, contact us at **pbstudiogames@proton.me**. Please include "Data Deletion Request" in the subject line.
 
 Note: Data collected by Google through AdMob is subject to [Google's data retention policies](https://policies.google.com/technologies/retention). We will forward deletion requests to Google as required.
 
@@ -79,7 +79,7 @@ All data transmitted between the App and ad servers is encrypted using HTTPS (TL
 
 Lucky to Live is **not directed at children under 13** (or under 16 in the European Economic Area). The App features simulated casino/gambling themes (slot machines using in-game currency only — no real money) and is rated Teen/12+ by content rating agencies.
 
-We do not knowingly collect data from children. If you believe a child has used the App and you would like their data removed, contact us at **pierrebgames@gmail.com**.
+We do not knowingly collect data from children. If you believe a child has used the App and you would like their data removed, contact us at **pbstudiogames@proton.me**.
 
 ## Offline Play
 
@@ -93,5 +93,5 @@ We may update this privacy policy from time to time. Changes will be reflected i
 
 If you have questions about this privacy policy or your data, contact us at:
 
-**Email:** pierrebgames@gmail.com
+**Email:** pbstudiogames@proton.me
 **Developer:** PB Studio
