@@ -1,6 +1,6 @@
 # Privacy Policy — Lucky to Live
 
-**Last updated:** March 29, 2026
+**Last updated:** April 23, 2026
 **Developer:** PB Studio
 **Contact:** pbstudiogames@proton.me
 
@@ -22,11 +22,23 @@ The App itself does not directly collect personal data. However, the App uses **
 | **App Interaction Data** | Ad impressions, ad clicks, and in-app events related to ad display |
 | **Crash and Diagnostic Data** | App crash reports and performance data to improve ad delivery |
 
+### Data Collected by Google Play Games Services
+
+The App integrates Google Play Games Services (GPGS) to support global leaderboards. When Google Play Games is installed on the device, GPGS performs a silent sign-in on first launch and attaches leaderboard submissions to the user's Google Play Games profile. The user can sign out at any time via the Google Play Games app to stop further submissions; the 11 competitive leaderboards that ship with Lucky to Live remain fully optional and non-blocking for core gameplay.
+
+| Data Type | Description |
+|-----------|-------------|
+| **Google Play Games Player ID** | Stable anonymous identifier used to attach scores to a player across devices |
+| **Display name** | Public alias chosen in the Google Play Games app |
+| **Avatar image URL** | Public Google Play Games profile image |
+| **Country code** | Approximate, from the user's Google account |
+| **Gameplay stats** | Leaderboard scores submitted when signed in: floor reached, wins, money earned / lost, damage dealt, XP earned, jokers hit (covers the 11 Epic 9 leaderboards) |
+
 ### Data NOT Collected
 
 - We do **not** collect your name, email address, phone number, or any other personally identifiable information
 - We do **not** collect precise location (GPS) data
-- We do **not** collect payment information (there are no in-app purchases)
+- We do **not** collect payment information (Google Play Billing processes the optional Remove Ads purchase on Google's side)
 - We do **not** collect contacts, photos, files, or other device content
 
 ## How Data is Used
@@ -37,6 +49,7 @@ Data collected by the AdMob SDK is used for the following purposes:
 - **Analytics:** Understanding ad performance and user engagement with ads
 - **Fraud Prevention:** Detecting and preventing invalid ad activity
 - **Ad Personalization:** Delivering ads tailored to user interests (if consent is given)
+- **Competitive Leaderboards:** Displaying your scores on global Google Play Games leaderboards when you are signed in
 
 ## Third-Party Data Sharing
 
@@ -44,10 +57,15 @@ Data collected through AdMob is shared with:
 
 - **Google LLC** and its subsidiaries (as the ad network provider)
 - **Google's advertising partners** (for ad serving and measurement)
+- **Google Play Games Services** (Google LLC) — for leaderboard hosting, ranking display, and Google Play Games profile integration
 
 Google's use of this data is governed by [Google's Privacy Policy](https://policies.google.com/privacy).
 
 For information about how Google uses data from apps that use its services, visit: [How Google uses information from sites or apps](https://policies.google.com/technologies/partner-sites).
+
+## In-App Purchases
+
+Lucky to Live offers one optional one-time purchase: Remove Ads. The transaction is processed entirely by Google Play Billing. We do not collect, store, or have access to any payment details (card number, billing address, etc.). Google's handling of payment data is governed by Google's Payments Privacy Notice.
 
 ## Your Rights and Choices
 
@@ -64,6 +82,10 @@ Opting out does not remove ads — you will still see ads, but they will not be 
 ### Reset Advertising ID
 
 You can reset your Advertising ID at any time through your device settings (Settings > Google > Ads > Reset advertising ID).
+
+### Opt Out of Google Play Games Services
+
+Signing out of Google Play Games via the Google Play Games app immediately stops future leaderboard submissions from the App. Data deletion requests for scores already submitted should be directed to [Google Account controls](https://accounts.google.com/) at the Google-level (the App has no server-side copy to delete). Scores already submitted remain on Google's servers per Google's retention policies.
 
 ### Request Data Deletion
 
@@ -83,7 +105,7 @@ We do not knowingly collect data from children. If you believe a child has used 
 
 ## Offline Play
 
-The App is fully playable offline. Rewarded ads require an internet connection. When played offline, no data is collected by the AdMob SDK.
+The App is fully playable offline. Rewarded ads require an internet connection. When played offline, no data is collected by the AdMob SDK. Leaderboard submissions queue locally when offline and retry automatically on reconnection via the Google Play Games SDK's built-in offline queue.
 
 ## Changes to This Policy
 
